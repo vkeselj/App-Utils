@@ -8,7 +8,7 @@ WriteMakefile(
   AUTHOR           => 'Vlado Keselj',
   LICENSE          => 'perlartistic',
   MIN_PERL_VERSION => '5.0008004',
-  EXE_FILES        => ['date-tag'],
+  EXE_FILES        => ['date-tag', 'save'],
   PREREQ_PM        => {
     'POSIX' => 0,
   },

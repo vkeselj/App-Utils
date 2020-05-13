@@ -21,11 +21,11 @@ the form C<YYYY-MM-DD-hhmmss>.
 
 =head1 AUTHOR
 
-Vlado Keselj
+Vlado Keselj vlado@dnlp.ca 2020
 
 =head1 LICENSE
 
-Artistic License L<perlartistic>
+Artistic License 1.0 L<perlartistic>
 
 =head1 INSTALLATION
 
@@ -37,6 +37,6 @@ Manual install:
 
  $ perl Makefile.PL
  $ make
- $make install
+ $ make install
 
 =cut
