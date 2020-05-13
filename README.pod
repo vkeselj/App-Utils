@@ -1,0 +1,37 @@
+=head1 NAME
+
+date-tag - print a simple date-tag in form YYYY-MM-DD-hhmmss
+
+=head1 DESCRIPTION
+
+A simple command that prints one line of with the current date-time tags in
+the form C<YYYY-MM-DD-hhmmss>.
+
+=head1 SYNOPSIS
+
+ $ date-tag
+ 2020-05-13-154542
+
+=head1 AUTHOR
+
+Vlado Keselj
+
+=head1 LICENSE
+
+Artistic License L<perlartistic>
+
+=head1 INSTALLATION
+
+Using C<cpan>:
+
+ $ cpan App::Utils
+
+Manual install:
+
+ $ perl Makefile.PL
+ $ make
+ $make install
+
+
+=cut
+
