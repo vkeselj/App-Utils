@@ -5,9 +5,9 @@
 if ($#ARGV<0) { die "Usage: $0 files..."; }
 
 use POSIX;
-my $tag = strftime("%Y-%m-%d-%H%M%S\n", localtime(time));
+my $tag = strftime("%Y-%m-%d-%H%M%S", localtime(time));
 my $cnt=1;
-while my $f (@ARGV) {
+for my $f (@ARGV) {
   die "Not a regular file: ($f)" unless -f $f;
   my $d; my $fbase = $f;
   if ($f =~ /\/([^\/]+)$/) { $d="$`/saved.d"; $fbase=$1; }

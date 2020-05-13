@@ -1,6 +1,6 @@
 package App::Utils;
 
-our $VERSION = 0.02;
+our $VERSION = 0.03;
 
 =head1 NAME
 
@@ -12,6 +12,8 @@ This is a stub module that contains some useful command-line utilities,
 useful in Linux environment.
 
 F<date-tag> prints a date-time tag in the format C<YYYY-MM-DD-hhmmss>
+
+F<remove-empty-dirs> - removes empty directories recursively
 
 F<save> saves a snapshot of files in the directory "saved.d".
 
