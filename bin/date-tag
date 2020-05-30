@@ -1,10 +1,12 @@
 #!/usr/bin/perl
+# date-tag - print a date-tag in form YYYY-MM-DD-hhmmss
 # 2020 Vlado Keselj http://web.cs.dal.ca/~vlado
 
 use POSIX;
 print strftime("%Y-%m-%d-%H%M%S\n", localtime(time));
 
 exit 0;
+__END__ # Documentation
 
 =head1 NAME
 
@@ -22,7 +24,7 @@ the form C<YYYY-MM-DD-hhmmss>.
 
 =head1 AUTHOR
 
-Vlado Keselj vlado@dnlp.ca 2020
+Vlado Keselj http://web.cs.dal.ca/~vlado 2020
 
 =head1 LICENSE
 

@@ -1,7 +1,7 @@
 #!/usr/bin/perl
-# save - save this version of the file in a simple way
+# save - save this version of the file in saved.d directory
 # Vlado Keselj <vlado@dnlp.ca> 2020
-# Runs on Linux (uses / as path separator)
+# 2020 Vlado Keselj http://web.cs.dal.ca/~vlado
 if ($#ARGV<0) { die "Usage: $0 files..."; }
 
 use POSIX;
@@ -21,14 +21,15 @@ for my $f (@ARGV) {
 }
 
 exit 0;
+__END__ # Documentation
 
 =head1 NAME
 
-save - save a snapshot of given files in saved.d directory
+save - save a snapshot of given files in C<saved.d> directory
 
 =head1 DESCRIPTION
 
-A command to save a snapshot of given files in saved.d directory, taged
+A command to save a snapshot of given files in C<saved.d> directory, taged
 with time and date of save.
 
 =head1 SYNOPSIS
@@ -37,7 +38,7 @@ with time and date of save.
 
 =head1 AUTHOR
 
-Vlado Keselj vlado@dnlp.ca 2020
+Vlado Keselj http://web.cs.dal.ca/~vlado 2020
 
 =head1 LICENSE
 
