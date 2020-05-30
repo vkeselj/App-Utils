@@ -1,6 +1,7 @@
 package App::Utils;
+# 2020 Vlado Keselj http://web.cs.dal.ca/~vlado
 
-our $VERSION = 0.05;
+our $VERSION = 0.051;
 
 =head1 NAME
 
@@ -22,7 +23,7 @@ F<save> - save a snapshot of given files in C<saved.d> directory
 
 =head1 AUTHOR
 
-Vlado Keselj <vlado@dnlp.ca> 2020
+Vlado Keselj http://web.cs.dal.ca/~vlado
 
 =head1 INSTALLATION
 
