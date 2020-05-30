@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-# Copyright 2002-2007 Vlado Keselj http://www.cs.dal.ca/~vlado
+# 2002-2020 Vlado Keselj http://web.cs.dal.ca/~vlado
 #
 # Remove recursively empty directories
 

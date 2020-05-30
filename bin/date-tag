@@ -1,4 +1,5 @@
 #!/usr/bin/perl
+# 2020 Vlado Keselj http://web.cs.dal.ca/~vlado
 
 use POSIX;
 print strftime("%Y-%m-%d-%H%M%S\n", localtime(time));
@@ -7,11 +8,11 @@ exit 0;
 
 =head1 NAME
 
-date-tag - print a simple date-tag in form YYYY-MM-DD-hhmmss
+date-tag - print a date-tag in form C<YYYY-MM-DD-hhmmss>
 
 =head1 DESCRIPTION
 
-A simple command that prints one line of with the current date-time tags in
+A simple command that prints one line of with the current date-time tag in
 the form C<YYYY-MM-DD-hhmmss>.
 
 =head1 SYNOPSIS

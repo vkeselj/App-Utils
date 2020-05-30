@@ -5,10 +5,10 @@ WriteMakefile(
   NAME             => 'App::Utils',
   VERSION_FROM     => 'lib/App/Utils.pm',
   ABSTRACT_FROM    => 'lib/App/Utils.pm',
-  AUTHOR           => 'Vlado Keselj',
+  AUTHOR           => 'Vlado Keselj https://web.cs.dal.ca/~vlado',
   LICENSE          => 'perlartistic',
   MIN_PERL_VERSION => '5.0008004',
-  EXE_FILES        => ['date-tag', 'save'],
+  EXE_FILES        => ['bin/date-tag', 'bin/remove-empty-dirs', 'bin/save'],
   PREREQ_PM        => {
     'POSIX' => 0,
   },
@@ -24,3 +24,11 @@ WriteMakefile(
   : ()
   ),
 );
+
+# parts of Makefile used only in the development directory
+if (-f 'priv.make' ) {
+    open(M, ">>Makefile") or die;
+    open(I,"priv.make") or die;
+    while (<I>) { print M }
+    close(M); close(I);
+}

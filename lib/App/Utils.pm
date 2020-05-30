@@ -1,17 +1,17 @@
 package App::Utils;
 
-our $VERSION = 0.03;
+our $VERSION = 0.041;
 
 =head1 NAME
 
-App::Utils - an app that contains some useful command-line utilities
+App::Utils - some useful command-line utilities
 
 =head1 DESCRIPTION
 
 This is a stub module that contains some useful command-line utilities,
-useful in Linux environment.
+created for Linux environment.
 
-F<date-tag> prints a date-time tag in the format C<YYYY-MM-DD-hhmmss>
+F<date-tag> - print a date-time tag in form C<YYYY-MM-DD-hhmmss>
 
 F<remove-empty-dirs> - removes empty directories recursively
 
