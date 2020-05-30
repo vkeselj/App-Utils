@@ -1,6 +1,6 @@
 package App::Utils;
 
-our $VERSION = 0.042;
+our $VERSION = 0.05;
 
 =head1 NAME
 
@@ -13,6 +13,8 @@ created for Linux environment.  Detailed descriptions are included in
 the programs.
 
 F<date-tag> - print a date-time tag in form C<YYYY-MM-DD-hhmmss>
+
+F<date-tag-file> - pre-tag filename with timestamp of last modification
 
 F<remove-empty-dirs> - remove recursively empty directories
 
